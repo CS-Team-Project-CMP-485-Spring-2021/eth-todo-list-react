@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# Ethereum Dapp with React JS - Ethereum/React Todo List #1
+Link to Source: https://www.youtube.com/watch?v=AiWkkj8lSTc&list=PL3hR7_uwn9GTEUeqM8KU4h4ydnvGzNQHg
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What To Install
 
-## Available Scripts
+Node.js
+https://nodejs.org/en/download/
 
-In the project directory, you can run:
+Run `node -v` in Terminal or Command Prompt to ensure Node.js was installed correctly.
 
-### `npm start`
+## How To Install React.js and Initialize To Github
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Inside of your local "Destination Folder", run the following code:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `npm install create-react-app`
+### `npx create-react-app eth-todo-list-react`
+### `cd eth-todo-list-react`
 
-### `npm test`
+"eth-todo-list-react" will be our "Project Folder". You can change the name if desired.
+ 
+## Create a Github Repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Following the link:
+https://github.com/new
 
-### `npm run build`
+Create a repository the same name as our project: eth-todo-list-react
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Since we're importing an existing repository and because create-react-app already gives us a README.md file we can skip all the other steps and click the Create Repository button to continue.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+If you already have a repository with this name on Github, you can name this repo whatever you want
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Connecting To Your Remote Repository
 
-### `npm run eject`
+Now that we've created a remote repository and because create-react-app initializes a local git repository for us, we can connect our React app to Github really easily!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Commands:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In the terminal in your project directory run the two commands under the section on Github that says "...or push an existing repository from the command line"
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1) `git remote add origin ...` connects your project to the remote repository, so you can push and pull code to/from Github,
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2) `git push -u origin master` takes the local commit we made in step 1) and pushes it to Github
 
-## Learn More
+Refresh your Github page and you should see your create-react-app files!
+# Ethereum Dapp with React JS - Ethereum/React Todo List #1
+Link to Source: https://www.youtube.com/watch?v=AiWkkj8lSTc&list=PL3hR7_uwn9GTEUeqM8KU4h4ydnvGzNQHg
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## What To Install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Node.js
+https://nodejs.org/en/download/
 
-### Code Splitting
+Run `node -v` in Terminal or Command Prompt to ensure Node.js was installed correctly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## How To Install React.js and Initialize To Github
 
-### Analyzing the Bundle Size
+Inside of your local "Destination Folder", run the following code:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### `npm install create-react-app`
+### `npx create-react-app eth-todo-list-react`
+### `cd eth-todo-list-react`
 
-### Making a Progressive Web App
+"eth-todo-list-react" will be our "Project Folder". You can change the name if desired.
+ 
+## Create a Github Repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Following the link:
+https://github.com/new
 
-### Advanced Configuration
+Create a repository the same name as our project: eth-todo-list-react
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Since we're importing an existing repository and because create-react-app already gives us a README.md file we can skip all the other steps and click the Create Repository button to continue.
 
-### Deployment
+If you already have a repository with this name on Github, you can name this repo whatever you want
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Connecting To Your Remote Repository
 
-### `npm run build` fails to minify
+Now that we've created a remote repository and because create-react-app initializes a local git repository for us, we can connect our React app to Github really easily!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Commands:
+
+In the terminal in your project directory run the two commands under the section on Github that says "...or push an existing repository from the command line"
+
+1) `git remote add origin ...` connects your project to the remote repository, so you can push and pull code to/from Github,
+
+2) `git push -u origin master` takes the local commit we made in step 1) and pushes it to Github
+
+Refresh your Github page and you should see your create-react-app files!
+
+### Install web3
+
+
+
+### Install Bootstrap
